@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&family=Varela+Round&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Rubik Gemstones', cursive;
+    background: #2D076E;
+    position: sticky;
+    top: 0;
+    z-index: 100;   
+}
+.head_container{
+
+   max-width:1300px;
+    margin:0 auto;
+}
+#head_item{
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li:hover{
+   text-decoration: underline;   
+}
+.hero_section{
+    font-family: 'Varela Round', sans-serif;
+    background-image: url(images/tuneimages/hero_image.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
+.hero_section h1{
+  
+    font-size: 5em;
+    margin: 0.4em;
+}
+.hero_section h2{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.music_container{
+    color: white;
+    background: #281154;
+    
+    display: grid;
+    text-align: center;
+}
+.music_area{
+    width: 1200px;
+    margin: 2em auto;
+    font-family: 'Varela Round', sans-serif;
+}
+#tag{
+    font-size: 2em;
+}
