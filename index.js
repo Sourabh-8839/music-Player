@@ -36,6 +36,7 @@ let songs =[
 
 {name:'Despacito',coverpath:"cover/ab67616d0000b273ddcf7bc59eb0aa9eda60f27a.jpg",filepath:"music/7.mp3"},
 
+{name:'she is the one ',coverpath:"cover/she is the.jpg",filepath:"music/8.mp3"},
 ]; 
 
 
